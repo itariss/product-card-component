@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 1.5rem);
+    background: var(--cream);
+    padding: 2rem 1rem;
+    justify-content: space-between;
+}

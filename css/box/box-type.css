@@ -1,0 +1,9 @@
+.box__type {
+    font-family: var(--font-montserrat);
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    color: var(--dark-gblue);
+    margin-bottom: .75rem;
+}

@@ -1,0 +1,14 @@
+@import url(./box-type.css);
+@import url(./box-title.css);
+@import url(./box-desc.css);
+@import url(./box-prices.css);
+@import url(./box-btn.css);
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--white);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}

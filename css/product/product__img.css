@@ -1,0 +1,9 @@
+.product__img {}
+
+.product__img--img {
+    content: url(../../images/image-product-mobile.jpg);
+    width: calc(100vw - 2rem);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+
+}

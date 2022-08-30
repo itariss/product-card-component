@@ -1,0 +1,18 @@
+.box__prices {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.box__price--promo {
+    color: var(--dark-cyan);
+    font-family: var(--font-fraunces);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.box__price--full {
+    align-self: center;
+    margin-left: 1.75rem;
+    text-decoration: line-through;
+    color: var(--dark-gblue);
+}

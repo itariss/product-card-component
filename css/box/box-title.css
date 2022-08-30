@@ -1,0 +1,6 @@
+.box__title {
+    font-size: 2.125rem;
+    font-family: var(--font-fraunces);
+    margin-bottom: 1.25rem;
+    color: var(--vrdark-blue);
+}

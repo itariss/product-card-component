@@ -1,0 +1,22 @@
+.box__btn {
+    padding: .75rem;
+    width: 90%;
+    align-self: center;
+    border: none;
+    background: var(--dark-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.box__btn:hover {
+    cursor: pointer;
+    background-color: var(--darker-cyan);
+}
+
+.box__btn img {
+    margin: 0 .25rem;
+}

@@ -1,10 +1,11 @@
 :root {
     box-sizing: border-box;
     --dark-cyan: hsl(158, 36%, 37%);
+    --darker-cyan: hsl(158, 42%, 15%);
     --cream: hsl(30, 38%, 92%);
     --vrdark-blue: hsl(212, 21%, 14%);
-    --dark-gblue: - hsl(228, 12%, 48%);
-    --white: hsl(0, 0, 100%);
+    --dark-gblue: hsl(228, 12%, 48%);
+    --white: #FFFFFF;
     --font-montserrat: 'Montserrat', sans-serif;
     --font-fraunces: 'Fraunces', serif;
 }
@@ -12,4 +13,8 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    width: 100%;
 }
