@@ -4,5 +4,13 @@
     display: flex;
     align-self: center;
     flex-direction: column;
-    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .product {
+        flex-direction: row;
+        width: 50%;
+        padding: calc(50vh - 18rem) 0;
+        height: 100%;
+    }
 }

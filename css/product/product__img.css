@@ -1,9 +1,25 @@
-.product__img {}
+.product__img {
+    margin-bottom: -10px;
+}
 
 .product__img--img {
     content: url(../../images/image-product-mobile.jpg);
     width: calc(100vw - 2rem);
     border-top-right-radius: 9px;
     border-top-left-radius: 9px;
+}
 
+@media screen and (min-width: 768px) {
+    .product__img--img {
+        content: url(../../images/image-product-desktop.jpg);
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 9px;
+        width: 100%;
+        height: calc(100% - .65rem);
+    }
+
+    .product__img {
+        width: calc(50% - 4rem);
+
+    }
 }

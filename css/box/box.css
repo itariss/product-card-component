@@ -7,8 +7,17 @@
 .box {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     background-color: var(--white);
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
+    padding: 1rem 1.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 9px;
+        padding: 2rem;
+        width: calc(50% - 8rem);
+    }
 }

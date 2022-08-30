@@ -1,6 +1,9 @@
 .attribution {
+    display: flex;
     font-size: 11px;
     text-align: center;
+    justify-content: center;
+    margin-top: 2.75rem;
 }
 
 .attribution a {
